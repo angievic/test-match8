@@ -27,24 +27,25 @@ should be handled appropriately. This is _not_ a closed book test. You are
 encouraged to reach out with any questions that you come across.
 ​
 ## Run Solution
-
+```python
 python pairsnumbers.py ./numbers2.txt 8
-
+```
 expected_output:
 + -2 , 10
 + 5 , 3
 + 8 , 0
-
+```python
 python pairsnumbers.py ./numbers.txt 12
-
+```
 expected_output:
 + 12 , 0
 + 16 , -4
 + 7 , 5
 
 You can create your own txt file and run:
-
+```python
 python pairsnumbers.py <txt path> <target sum>
+```
 
 ## Solution is O(n)
 
